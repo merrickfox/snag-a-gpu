@@ -1,0 +1,42 @@
+{
+  "name": "snag a gpu",
+  "version": "1.0.0",
+  "description": "snag a gpu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merrickfox/snag-a-gpu.git"
+  },
+  "author": "Merrick Fox",
+  "license": "ISC",
+
+  "type": "module",
+  "dependencies": {
+    "@sentry/node": "^5.29.2",
+    "@sentry/tracing": "^5.29.2",
+    "@slack/web-api": "^5.15.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "date-fns": "^2.16.1",
+    "discord.js": "^12.5.3",
+    "express": "^4.17.1",
+    "google-auth-library": "^6.0.2",
+    "googleapis": "^52.1.0",
+    "lodash": "^4.17.19",
+    "node-fetch": "^2.6.0",
+    "node-fetch-retry": "^1.1.0",
+    "psl": "^1.8.0",
+    "puppeteer": "^5.5.0",
+    "puppeteer-extra": "^3.1.16",
+    "puppeteer-extra-plugin-adblocker": "^2.11.10",
+    "puppeteer-extra-plugin-stealth": "latest",
+    "simple-node-logger": "^18.12.24",
+    "snoostorm": "^1.5.0",
+    "snoowrap": "^1.21.0",
+    "yargs": "^15.4.0-beta.1"
+  }
+}

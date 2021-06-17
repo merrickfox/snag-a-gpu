@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  snag-a-gpu:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "8181:8181"
+    env_file:
+      - ./.env
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
